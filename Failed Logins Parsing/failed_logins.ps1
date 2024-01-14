@@ -1,5 +1,5 @@
 #run data format "mm/dd/yyyy hh:mm:ss (AM/PM)" 
-# ./failed_logins -dateFrom '11/25/2023 8:22:07 PM' -dateTo '11/25/2023 8:23:00 PM'
+# ./failed_logins -dateFrom '11/25/2023 8:22:07 PM' -dateTo '11/25/2023 8:23:00 PM' -remoteOnly
 param(
     [switch]$detailed=$false,
     [switch]$remoteOnly = $false,
