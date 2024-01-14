@@ -1,4 +1,4 @@
-# .\installed_apps.ps1 -startDate '11/25/2023' -endDate '11/26/2023' -hideWarnings
+# ./installed_apps.ps1 -startDate '11/25/2023' -endDate '11/26/2023' -hideWarnings
 # registry doesn't store data for hour of installation. Inputted start date and end date includes the day given.
 param(
     [DateTime]$startDate=0,
