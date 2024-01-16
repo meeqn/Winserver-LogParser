@@ -1,4 +1,5 @@
 # ./installed_apps.ps1 -startDate '11/25/2023' -endDate '11/26/2023' -hideWarnings
+#./iis_parser.ps1 -startDate "11/08/2023 09:37:00 PM" -endDate "11/08/2023 09:40:00 PM"
 # registry doesn't store data for hour of installation. Inputted start date and end date includes the day given.
 param(
     [DateTime]$startDate=0,
