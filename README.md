@@ -15,7 +15,3 @@ The script installed_apps.ps1 displays list of executable programms installed in
 not all installers save installation date to the registry. In that case you can use script repair_dates.ps1 which updates registry with dates from installed files properties.
 
 <br><br>
-
-<b>Registry Changes</b>
-<br>
-The script requires auditing enabled for object access.
